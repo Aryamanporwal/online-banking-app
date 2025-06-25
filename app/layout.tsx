@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter , IBM_Plex_Serif } from "next/font/google";
 import "./globals.css";
+import '@unocss/reset/tailwind.css'
 
 const inter = Inter({ subsets: ["latin"], variable: '--font-inter'})
 const ibmPlexSerif = IBM_Plex_Serif({
@@ -11,8 +12,8 @@ const ibmPlexSerif = IBM_Plex_Serif({
 
 
 export const metadata: Metadata = {
-  title: "Transcto",
-  description: "Online banking platform",
+  title: "Transacto",
+  description: "Transacto is a Modern Online Banking Platform across the Globe🌐",
   icons: {
     icon: '/icons/logo.svg'
   }
